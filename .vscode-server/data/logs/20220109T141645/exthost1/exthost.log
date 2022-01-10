@@ -1,0 +1,10 @@
+[2022-01-09 14:17:03.827] [exthost] [info] Extension host with pid 1034 started
+[2022-01-09 14:17:03.839] [exthost] [error] Error: EEXIST: file already exists, open '/home/pi/.vscode-server/data/User/workspaceStorage/5ea78c1ca68f0c21f2b87625a3094133/vscode.lock'
+[2022-01-09 14:17:03.851] [exthost] [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/5ea78c1ca68f0c21f2b87625a3094133/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-01-09 14:17:03.856] [exthost] [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/5ea78c1ca68f0c21f2b87625a3094133/vscode.lock': The lock does not look stale, elapsed: 120514 ms, giving up.
+[2022-01-09 14:17:03.876] [exthost] [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/5ea78c1ca68f0c21f2b87625a3094133-1/vscode.lock': Lock acquired.
+[2022-01-09 14:17:04.534] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-09 14:17:04.550] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-09 14:17:06.994] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-09 14:17:07.179] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-09 14:17:07.196] [exthost] [info] Eager extensions activated

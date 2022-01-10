@@ -1,0 +1,1 @@
+int addsym(int a, int b);
