@@ -78,7 +78,7 @@ int name_release(struct inode *inode,struct file *filp)
     return 0;
 }
 
-ssize_t name_read(struct file *filp,char __user *Ubuff,size_t count,loff_t *offp)
+ssize_t name_read(struct file *filp,char __user *Ubuff,size_t count,loff_t *offp) //user is reading from kernel 
 {
     char Kbuff[50]="being successful is cool\n";
     ssize_t retn;
@@ -104,7 +104,7 @@ ssize_t name_read(struct file *filp,char __user *Ubuff,size_t count,loff_t *offp
 }
 
 
-ssize_t name_write(struct file *filp,const char __user *Ubuff,size_t count,loff_t *offp)
+ssize_t name_write(struct file *filp,const char __user *Ubuff,size_t count,loff_t *offp) //user is writing data to kernel
 {
     char Kbuff[50];
     ssize_t retn;
